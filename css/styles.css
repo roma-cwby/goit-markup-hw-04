@@ -215,7 +215,6 @@ body{
 }
 
 .footer-soc-title{
-    margin-top: 12px;
     margin-bottom: 20px;
 
     font-weight: 700;
@@ -232,7 +231,10 @@ body{
 }
 
 .footer-soc{
+    margin-top: 12px;
     margin-left: 70px;
+
+    height: 80px;
 }
 
 .footer-soc-list {
