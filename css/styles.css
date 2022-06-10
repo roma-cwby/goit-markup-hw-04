@@ -145,13 +145,15 @@ body{
     line-height: 1.14;
 
     color: var(--second-color);
-    fill: var(--second-color);
+}
+
+.header-icon{
+    fill: currentColor;
 }
 
 .header-contact:hover,
 .header-contact:focus {
     color: var(--accent-color);
-    fill: var(--accent-color);
 }
 
 .header-icon{
@@ -521,13 +523,17 @@ body{
     height: 100%;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    fill: #AFB1B8;
+    color: #AFB1B8;
+}
+
+.client-icon{
+    fill: currentColor;
 }
 
 .client-link:hover,
 .client-link:focus{
     border: 1px solid var(--accent-color);
-    fill: var(--accent-color);
+    color: var(--accent-color);
 }
 
 /* ----------Portfolio----------- */
